@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.box{
+    border-radius: 50%;
+    padding: 30px;
+    border: 3px solid red;
+    transition-duration:.5s;
+    background-color: yellow;
+}
+
+.btn-div{
+    z-index: 2;
+    position: absolute;
+    top: 70vh;
+}
+
+#switch{
+    color: green;
+    padding: 20px;
+    margin: 20px;
+}
+
+#effect{
+    padding: 20px;
+    margin: 20px;
+}
